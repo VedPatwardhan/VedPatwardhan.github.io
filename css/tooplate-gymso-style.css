@@ -377,7 +377,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   .class-info {
     background: var(--white-color);
     box-shadow: 6px 0 38px rgba(20,20,20,0.10);
-    border-radius: 0 0 2px 2px;
+    border-radius: 10px;
     padding: 1rem 2rem;
     position: relative;
   }
