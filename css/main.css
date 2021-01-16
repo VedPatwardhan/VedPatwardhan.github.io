@@ -1,5 +1,6 @@
 details {
     width: 75%;
+    height: 100px;
     min-height: 5px;
     min-width: 350px;
     max-height: 310px;
@@ -10,7 +11,7 @@ details {
     border: 1px solid #505050;
     border-radius: 15px;
     box-sizing: border-box;
-    transition: all .3s;
+    transition: all 0.5s;
 }
   
 details + details {
@@ -21,7 +22,7 @@ details p
     margin-top: 15px;
 }
 details[open] {
-    min-height: 50px;
+    height: 200px;
     background-color: #505050;
     box-shadow: 2px 2px 20px rgba(0,0,0,.2);
     color: rgb(7, 252, 252);
@@ -66,4 +67,11 @@ details[open] summary:hover::after {
     100% {
       transform: scale(1);
     }
+}
+
+.topic{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
