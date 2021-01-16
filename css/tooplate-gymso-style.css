@@ -532,6 +532,19 @@ https://www.tooplate.com/view/2119-gymso-fitness
     color: var(--primary-color);
   }
 
+  .socialicon{
+    padding-left: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: color 1s;
+    
+
+  }
+  .socialicon:hover{
+    
+    color: var(--dark-color);
+  }
+
 
   /*---------------------------------------
      SOCIAL ICON              
